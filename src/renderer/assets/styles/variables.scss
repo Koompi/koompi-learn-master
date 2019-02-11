@@ -1,0 +1,44 @@
+$gray1: #565252;
+$gray2: #797878;
+$gray3: #979595;
+$gray4: #C4C4C4;
+$gray5: #E5E5E5;
+$red: #D50000;
+$blue: #2196F3;
+$white: #FFFFFF;
+
+.bg-gray1 { background: $gray1; }
+.text-gray1 { color: $gray1; }
+.border-gray1 { border-color: $gray1; }
+
+.bg-gray2 { background: $gray2; }
+.text-gray2 { color: $gray2; }
+.border-gray2 { border-color: $gray2; }
+
+.bg-gray3 { background: $gray3; }
+.text-gray3 { color: $gray3; }
+.border-gray3 { border-color: $gray3; }
+.hover-bg-gray3:hover { background-color: $gray3; }
+
+.bg-gray4 { background: $gray4; }
+.text-gray4 { color: $gray4; }
+.border-gray4 { border-color: $gray4 !important; }
+
+.bg-gray5 { background: $gray5; }
+.text-gray5 { color: $gray5; }
+.border-gray5 { border-color: $gray5; }
+
+.bg-red { background: $red; }
+.text-red { color: $red; }
+.border-red { border-color: $red !important; }
+
+.bg-blue { background: $blue; }
+.text-blue { color: $blue; }
+.border-blue { border-color: $blue !important; }
+.hover-border-blue:hover { border-color: $blue !important; }
+
+.bg-black {background-color: black;}
+.bg-white { background: $white !important; }
+.text-white { color: $white !important; }
+.border-white { border-color: white !important; }
+.hover-text-white:hover { color: white; }

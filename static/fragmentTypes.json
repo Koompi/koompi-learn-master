@@ -1,0 +1,1 @@
+{"__schema":{"types":[{"possibleTypes":[{"name":"Student"},{"name":"Instructor"}],"name":"UserInfo","kind":"INTERFACE"},{"possibleTypes":[{"name":"StudentCourseView"},{"name":"OwnerCourseView"}],"name":"CourseInfo","kind":"INTERFACE"}]}}

@@ -1,0 +1,101 @@
+
+p, input, span, div, a, h1, h2, h3, h4, html, body {margin: 0px; padding: 0px; font-family: 'Roboto', sans-serif;}
+html, body, #app {width: 100%; height: 100%;}
+
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.button{
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.tablinks {
+  padding: 10px 20px;
+  font-size: 18px;
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  border-color: #979595;
+  transition: .3s;
+}
+
+.tablinks:hover {
+  background-color: #C4C4C4;
+}
+
+.tablinks:last-child{
+  border-bottom: 1px solid #979595;
+}
+
+.border-only {
+  border: 1px solid #ccc;
+}
+
+.border-only::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: -1px;
+  width: 10%;
+  height: 2px;
+  background-color: black;
+}
+
+.popover {
+  position: relative;
+  display: inline-block;
+  max-width: 180px;
+}
+
+.popover-content {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  border: 1px solid #C4C4C4;
+  top: 137%;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  left: -62px;
+  width: 150px;
+}
+.popover-content:before {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  right: calc(15% - 10px);
+  top: -12px;
+  border-style: solid;
+  border-width: 0 10px 12px 10px;
+  border-color: transparent transparent #C4C4C4 transparent;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+.popover:hover .popover-content {
+  z-index: 10;
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0,-20px);
+  transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+}
+.popover-message {
+  padding: 5px 15px;
+  text-align: left;
+  color: #565252;
+  border-bottom: 1px solid #C4C4C4;
+}
+.popover-message a{
+  text-decoration: none;
+  color: #565252;
+}
+
+.popover-message:hover {
+  background: #C4C4C4;
+}
